@@ -51,11 +51,14 @@ Tags: HTML, Template, Coming Soon, Kite
 
 /* 2 - Global Style
 ---------------------------------------------------------------------- */
+html { height:100%; } 
 body{
+	min-height:100%;
 	font-family:'Roboto', sans-serif;
 	color:#fff;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
+	background: url(../images/background/page-top.jpg);
 }
 
 a{
@@ -66,18 +69,16 @@ a:focus{
 	outline-offset:inherit;
 }
 .section-style{
-	background-attachment:inherit;
-	background-position:50% 0;
-	background-repeat:no-repeat;
+	background: transparent;
 	margin:0 auto;
 	width:100%;
-	background-size:cover;
 }
 .pattern{
 	background:rgba(0,0,0,.5) url(../images/pattern.png);
 	padding-top:100px;
 }
 .container{
+	height:100%;
 	overflow:hidden;
 }
 .section-name{
@@ -881,6 +882,8 @@ form.news-letter .btn:hover{
 #footer-section{
 	width: 100%;
 	min-height: 80px;
+	opacity: 0.5;
+   filter: alpha(opacity=50);
 }
 #footer-section p{
 	margin: 0;
