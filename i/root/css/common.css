@@ -7,7 +7,7 @@ body{
 	color:#fff;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
-	background: url(http://test.b.wck.bz/images/background/page-top.jpg);
+	background: url(http://i.b.wck.bz/images/background/page-top.jpg);
 	min-width:500px;
 }
 
@@ -19,7 +19,7 @@ a:focus{
 	outline-offset:inherit;
 }
 .section-style{
-	background: rgba(0,0,0,.5) url(http://test.b.wck.bz/images/pattern.png);
+	background: rgba(0,0,0,.5) url(http://i.b.wck.bz/images/pattern.png);
 	margin:0 auto;
 	width:100%;
 	min-height: calc(100% - 80px);
@@ -190,6 +190,7 @@ a:focus{
 	font-size:66px;
 	font-family:'Pacifico';
 	position:relative;
+	margin-top:0px;
 }
 .site-title:before,
 .site-title:after{
@@ -290,7 +291,7 @@ a:focus{
 #footer-section{
 	width: 100%;
 	min-height: 60px;
-	background: rgba(0,0,0,.5) url(http://test.b.wck.bz/images/pattern.png);
+	background: rgba(0,0,0,.5) url(http://i.b.wck.bz/images/pattern.png);
 }
 #footer-section p{
 	margin: 0;
@@ -469,7 +470,7 @@ background: #00aaff;
 	        animation: load 0.8s linear 0.8s infinite;
 }
 #loader .lading{
-	background-image: url(http://test.b.wck.bz/images/loading.gif);
+	background-image: url(http://i.b.wck.bz/images/loading.gif);
 	background-repeat: no-repeat;
 	position: absolute;
 	left: 0;

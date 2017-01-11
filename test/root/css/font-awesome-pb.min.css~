@@ -2,7 +2,7 @@
  *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
- @font-face{font-family:'FontAwesome';src:url('http://test.b.wck.bz/fonts/fontawesome-webfont.eot?v=4.1.0');src:url('http://test.b.wck.bz/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'),url('http://test.b.wck.bz/fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'),url('http://test.b.wck.bz/fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'),url('http://test.b.wck.bz/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+ @font-face{font-family:'FontAwesome';src:url('fontawesome-webfont.eot?v=4.1.0');src:url('fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'),url('fontawesome-webfont.woff') format('woff'),url('fontawesome-webfont.ttf?v=4.1.0') format('truetype'),url('fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 .fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
 .fa-2x{font-size:2em}
